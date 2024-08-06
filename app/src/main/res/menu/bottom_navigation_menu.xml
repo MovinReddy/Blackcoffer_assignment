@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="explore"
+        android:icon="@drawable/eye"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/nav_connections"
+        android:icon="@mipmap/conn"
+        android:title="connections"
+        tools:ignore="HardcodedText"/>
+    <item
+        android:id="@+id/nav_chat"
+        android:icon="@mipmap/mess"
+        android:title="chats"
+        tools:ignore="HardcodedText"/>
+    <item
+        android:id="@+id/nav_contacts"
+        android:icon="@mipmap/cont"
+        android:title="contacts"
+        tools:ignore="HardcodedText"/>
+    <item
+        android:id="@+id/nav_groups"
+        android:icon="@mipmap/hash"
+        android:title="groups"
+        tools:ignore="HardcodedText"/>
+</menu>
